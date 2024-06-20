@@ -14,10 +14,11 @@ nav{
     color: rgb(234, 110, 27);
     background-color: rgba(148, 223, 246, 0.862);
     text-align: center;
-    height: 150px;
+    height: 130px;
     padding: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    font-weight: bolder;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -78,6 +79,8 @@ a:hover{
     list-style-type: none;
     gap: 0.5rem;  
     margin-bottom: 20vh;
+    cursor: pointer;
+    
 }
 
 .foto{
@@ -86,11 +89,13 @@ a:hover{
     padding: 20px;
     border-radius: 15px;
     position: relative;
+    
   
 }
 
 img{
     border-radius: 15px;
+
 }
 
 
@@ -101,15 +106,21 @@ img{
     top: 50%;
     left: 50%;
      color: #f4f4f400;
+     text-align: center;
+     
+     
 }
 .a1:hover{
-    background-color: #f4f4f413;
+    background-color: #f4f4f456;
     position: absolute; 
     border: 2px solid white;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    color: black;
+    color:orangered;
+    font-weight: bolder;
+
+    
 }
 
 
@@ -119,11 +130,11 @@ img{
     margin: auto;
     margin-bottom: 100px;
      color: #808080;
-    border: 2px solid red;
-    border-radius: 30px 2px 30px 2px;
-    box-shadow: ;
+    border: 2px solid rgba(0, 0, 0, 0.497);
+    border-radius: 30px 2px;
     width: 900px;
     text-align: center;
+    box-shadow: 5px 5px 5px grey;
    
 }
 
@@ -136,7 +147,7 @@ img{
 
 footer{
    color: #808080;
-    background-color: rgba(246, 178, 148, 0.862);
+    background-color: #A1E2F6 ;
     margin-bottom: 10px;
     height: 50px;
     text-align: center;
